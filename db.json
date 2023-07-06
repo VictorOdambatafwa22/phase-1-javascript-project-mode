@@ -1,0 +1,185 @@
+{
+  "Staff": [
+    {
+      "id": 1,
+      "staffID": 1010,
+      "staffName": "Rodgers",
+      "gender": "male",
+      "age": "35",
+      "department": "sales",
+      "title": "sales agent",
+      "salary": "40000",
+      "image": "https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg",
+      "likes": 2
+    },
+    {
+      "id": 2,
+      "staffID": 2020,
+      "staffName": "Kevin",
+      "gender": "male",
+      "age": "33",
+      "department": "procurement",
+      "title": "procurement officer",
+      "salary": "60000",
+      "image": "https://images.pexels.com/photos/1850617/pexels-photo-1850617.jpeg",
+      "likes": 5
+    },
+    {
+      "id": 3,
+      "staffID": 3030,
+      "staffName": "Winnie",
+      "gender": "female",
+      "age": "32",
+      "department": "catering",
+      "title": "catares",
+      "salary": "70000",
+      "image": "https://images.pexels.com/photos/920382/pexels-photo-920382.jpeg",
+      "likes": 10
+    },
+    {
+      "id": 4,
+      "staffID": 4040,
+      "staffName": "Bob",
+      "gender": "male",
+      "age": "28",
+      "department": "HR",
+      "title": "hr manager",
+      "salary": "90000",
+      "image": "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg",
+      "likes": 8
+    },
+    {
+      "id": 5,
+      "staffID": 5050,
+      "staffName": "Yvonne",
+      "gender": "female",
+      "age": "30",
+      "department": "sales",
+      "title": "sales agent",
+      "salary": "40000",
+      "image": "https://images.pexels.com/photos/1181352/pexels-photo-1181352.jpeg",
+      "likes": 10
+    },
+    {
+      "id": 6,
+      "staffID": 6060,
+      "staffName": "Lewisky",
+      "gender": "male",
+      "age": "27",
+      "department": "medical",
+      "title": "nurse",
+      "salary": "45000",
+      "image": "https://images.pexels.com/photos/1181414/pexels-photo-1181414.jpeg",
+      "likes": 11
+    },
+    {
+      "id": 7,
+      "staffID": 7070,
+      "staffName": "sharon",
+      "gender": "female",
+      "age": "35",
+      "department": "marketing",
+      "title": "sacco assurance officer",
+      "salary": "40000",
+      "image": "https://images.pexels.com/photos/4066041/pexels-photo-4066041.jpeg",
+      "likes": 13
+    },
+    {
+      "id": 8,
+      "staffID": 8080,
+      "staffName": "Victor",
+      "gender": "male",
+      "age": "38",
+      "department": "IT",
+      "title": "software developer",
+      "salary": "100000",
+      "image": "https://images.pexels.com/photos/7567426/pexels-photo-7567426.jpeg",
+      "likes": 6
+    },
+    {
+      "id": 9,
+      "staffID": 9090,
+      "staffName": "Hillary",
+      "gender": "male",
+      "age": "28",
+      "department": "security",
+      "title": "security officer",
+      "salary": "29000",
+      "image": "https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg",
+      "likes": 7
+    },
+    {
+      "id": 10,
+      "staffID": 1001,
+      "staffName": "Macrine",
+      "gender": "female",
+      "age": "40",
+      "department": "Art and creation",
+      "title": "designer",
+      "salary": "120000",
+      "image": "https://images.pexels.com/photos/5256180/pexels-photo-5256180.jpeg",
+      "likes": 6
+    },
+    {
+      "id": 11,
+      "staffID": 1002,
+      "staffName": "Cornell",
+      "gender": "male",
+      "age": "34",
+      "department": "medical",
+      "title": "dentist",
+      "salary": "80000",
+      "image": "https://images.pexels.com/photos/3778694/pexels-photo-3778694.jpeg",
+      "likes": 5
+    },
+    {
+      "id": 12,
+      "staffID": 1003,
+      "staffName": "Steve",
+      "gender": "male",
+      "age": "45",
+      "department": "sales",
+      "title": "marketing manager",
+      "salary": "200000",
+      "image": "https://images.pexels.com/photos/6801867/pexels-photo-6801867.jpeg",
+      "likes": 7
+    },
+    {
+      "id": 13,
+      "staffID": 1004,
+      "staffName": "Maluki",
+      "gender": "male",
+      "age": "30",
+      "department": "IT",
+      "title": "software developer",
+      "salary": "200000",
+      "image": "https://images.pexels.com/photos/5520284/pexels-photo-5520284.jpeg",
+      "likes": 10
+    },
+    {
+      "id": 14,
+      "staffID": 1005,
+      "staffName": "Emma",
+      "gender": "female",
+      "age": "31",
+      "department": "IT",
+      "title": "software developer",
+      "salary": "40000",
+      "image": "https://images.pexels.com/photos/5331208/pexels-photo-5331208.jpeg",
+      "likes": 20
+    }
+    ,
+    {
+      "id": 15,
+      "staffID": 1006,
+      "staffName": "Eddy",
+      "gender": "male",
+      "age": "32",
+      "department": "IT",
+      "title": "lead developer",
+      "salary": "55000",
+      "image": "https://images.pexels.com/photos/7674906/pexels-photo-7674906.jpeg",
+      "likes": 11
+    }
+  ]
+}

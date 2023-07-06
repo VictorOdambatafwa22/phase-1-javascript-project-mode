@@ -1,0 +1,88 @@
+body{
+  background-color:#bbccff ;	
+  display: flex;
+  padding: 50px 70px;
+  justify-content: space-between;
+
+}
+
+#staffForm { 
+	padding: 0; 
+	width: 400px; 
+}
+
+#staffForm form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#image{
+	width: 100%;
+	height:200px;
+  }
+
+  
+
+#staffForm form .input_field { 
+	width: 280px; 
+	color: #fff; 
+	padding: 5px; 
+	border: 1px solid #102a61;  
+	background: #021321; 
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#staffForm form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px; 
+	color: #000; 
+}
+
+#staffForm form textarea { 
+	width: 388px; 
+	height: 200px; 
+	padding: 5px; 
+	color: #fff; 
+	border: 1px solid #102a61;  
+	background: #021321;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	margin-top: 5px; 
+}
+
+#submitBtn { 
+	margin: 5px 0px;
+	padding: 5px 14px; 
+	text-decoration: none; 
+	border: 1px solid #102a61;  
+  border-radius: 5px;
+	background: #021321; 
+	font-size: 14px;  
+	color: #fff;
+}
+
+#Admissjm { 
+  padding-top: 5px;
+  padding-bottom: 5px;
+ border-style: double;
+}
+
+
+/* Footer ama Cagta  */
+#footer {
+	background: #F0E68C;
+        /*background: #bbbbbb;*/
+
+	clear: both;
+	height: 50px;
+        text-align:center;
+}
+
+#footer p {
+	padding: 15px;
+	font-weight: bold;
+}

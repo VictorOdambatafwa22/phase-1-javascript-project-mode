@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE ADMISSION RECORDS MANAGEMENT SYSTEM</title>
+    <script src='index.js' defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="Admission">
+        <h1>New staff</h1>
+
+                <form id="staffForm" action="#" name="EMPLOYEE">
+                <label for="staffID">Staff ID:</label><br>
+                <input type="text" id="staffID" name="staffID"><br>
+                <label for="staffName">Staff name:</label><br>
+                <input type="text" id="staffName" name="staffName"><br>
+                <label for="gender">Gender:</label><br>
+                <input type="text" id="gender" name="gender"><br>              
+                <label for="age">Age:</label><br>
+                <input type="text" id="age" name="age"><br>
+                <label for="department">Department:</label><br>
+                <input type="text" id="department" name="department"><br>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="salary">Salary:</label><br>
+                <input type="text" id="salary" name="salary"><br>
+                <label for="image">Image:</label><br>
+                <input type="text" id="image" name="image"><br>
+                <label for="likes">Likes:</label><br>
+                <input type="checkbox" id="likes" name="likes" >
+               
+
+                <input id="submitBtn" type="submit" value="Submit">
+            </form>
+
+    </div>
+
+    
+    <div id="staffs"> 
+        <h1>List of staff</h1>
+        <ul id="staff">
+           
+        </ul>
+
+    </div>
+
+        <div id="staff-details">
+        
+            <h2>staff id :<span id="staffID">0</span></h2>
+            <h2>name:<span id="staffName">0</span></h2>
+            <h2>gender:<span id="gender">0</span></h2>
+            <h2>age:<span id="age">0</span></h2>
+            <h2>department:<span id="department">0</span></h2>
+            <h2>title:<span id="title">0</span></h2>
+            <h2>salary:<span id="salary">0</span></h2>
+            <h2>likes:<span id="likes">0</span></h2>
+            <img id="image"src="https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg" alt="image" >
+        </div>
+   
+
+</body>
+
+</html>
