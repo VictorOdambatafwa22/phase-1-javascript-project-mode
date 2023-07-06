@@ -15,6 +15,7 @@
         <h1>New staff</h1>
 
                 <form id="staffForm" action="#" name="EMPLOYEE">
+                <input type="hidden" id="hidden_input" name="hidden">
                 <label for="staffID">Staff ID:</label><br>
                 <input type="text" id="staffID" name="staffID"><br>
                 <label for="staffName">Staff name:</label><br>
@@ -30,13 +31,18 @@
                 <label for="salary">Salary:</label><br>
                 <input type="text" id="salary" name="salary"><br>
                 <label for="image">Image:</label><br>
-                <input type="text" id="image" name="image"><br>
-                <label for="likes">Likes:</label><br>
-                <input type="checkbox" id="likes" name="likes" >
+                <input type="url" id="image" name="image"><br>
+          
                
 
                 <input id="submitBtn" type="submit" value="Submit">
+                
+
+
             </form>
+
+            <button id="deleteBtn" type="button">Delete</button>
+            <button id="editBtn" type="button">Edit</button>
 
     </div>
 

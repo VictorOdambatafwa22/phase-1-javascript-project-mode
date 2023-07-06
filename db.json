@@ -167,8 +167,7 @@
       "salary": "40000",
       "image": "https://images.pexels.com/photos/5331208/pexels-photo-5331208.jpeg",
       "likes": 20
-    }
-    ,
+    },
     {
       "id": 15,
       "staffID": 1006,
@@ -180,6 +179,18 @@
       "salary": "55000",
       "image": "https://images.pexels.com/photos/7674906/pexels-photo-7674906.jpeg",
       "likes": 11
+    },
+    {
+      "staffID": "99999",
+      "staffName": "mmmmmmm",
+      "gender": "nnnnn",
+      "age": "10",
+      "department": "gggggggg",
+      "title": "jjhhh",
+      "salary": "10000",
+      "image": "http://127.0.0.1:5500/index.html?staffID=&staffName=&gender=&age=&department=&title=&salary=&image=#",
+      "likes": 0,
+      "id": 16
     }
   ]
 }
