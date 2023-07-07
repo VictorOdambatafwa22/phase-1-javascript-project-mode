@@ -54,7 +54,7 @@ if (staffID.value==="" || staffName.value===""|| gender.value===""|| age.value==
 }
 
 function Update_staff(staffDetails) {// I want to add new staff to the json.db
-    fetch(`http://localhost:3000/Staff/${staffDetails.id}`, {
+    fetch(`https://phase1-project-api.onrender.com/Staff/${staffDetails.id}`, {
     method: "PATCH",
     headers:{
         "content-type": "application/json",
@@ -108,7 +108,7 @@ function handleDeleteStaff(e) {
 
 
 function Fetch_all_staffs() {
-    fetch("http://localhost:3000/Staff")
+    fetch("https://phase1-project-api.onrender.com/Staff")
         .then(Response => Response.json())
         .then(staffs => {
             display_all_staffs(staffs)
@@ -134,7 +134,7 @@ function display_one_staff_details(e){
    }
 
    function fetchstaffById(id){
-    fetch(`http://localhost:3000/Staff/${id}`)
+    fetch(`https://phase1-project-api.onrender.com/Staff/${id}`)
     .then(Response => Response.json())
     .then(staf => {
         display_one_staff(staf)
@@ -172,7 +172,7 @@ console.log(loadedstaff)
     }
 
     function Add_new_staff(staffDetails) {// I want to add new staff to the json.db
-        fetch("http://localhost:3000/Staff", {
+        fetch("https://phase1-project-api.onrender.com/Staff", {
         method: "POST",
         headers:{
             "content-type": "application/json",
@@ -188,8 +188,8 @@ console.log(loadedstaff)
 
     //Add_new_staff();
 
-    function Delete_staff(id) {// I want to add new staff to the json.db
-        fetch(`http://localhost:3000/Staff/${id}`, {
+    function Delete_staff(id) {// I want to delete staff from the json.db
+        fetch(`https://phase1-project-api.onrender.com/Staff/${id}`, {
         method: "DELETE",
         headers:{
             "content-type": "application/json",

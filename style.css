@@ -54,12 +54,12 @@ body{
 	margin-top: 5px; 
 }
 
-#submitBtn { 
+#submitBtn,#editBtn,#deleteBtn { 
 	margin: 5px 0px;
 	padding: 5px 14px; 
 	text-decoration: none; 
 	border: 1px solid #102a61;  
-  border-radius: 5px;
+    border-radius: 5px;
 	background: #021321; 
 	font-size: 14px;  
 	color: #fff;
